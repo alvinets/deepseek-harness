@@ -1,0 +1,12 @@
+# The dsh-web-app-haowise bundle patch: a thin overlay over the web-app bundle
+# that swaps the official brand occupants for the HAOWISE-branded ones.
+# Applied after web-app's insert; rows here override web-app rows by id.
+#
+# Disable the official brand plugin so it registers no occupants.
+- id: ui-brand-official
+  disabled: true
+
+# Insert the HAOWISE brand plugin in its place.
+- insert:
+    - id: ui-brand-haowise
+      name: '@deepseek-ai/dsh-client-ui-brand-haowise'
