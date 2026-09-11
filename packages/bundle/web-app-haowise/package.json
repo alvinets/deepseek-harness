@@ -1,7 +1,7 @@
 {
   "name": "@deepseek-ai/dsh-web-app-haowise",
   "description": "HAOWISE-branded web surface: the thin bundle overlay over dsh-web-app that swaps the official brand occupants for HAOWISE",
-  "version": "0.1.5-alpha.2",
+  "version": "0.1.5-rc.1",
   "publishConfig": {
     "access": "public"
   },
